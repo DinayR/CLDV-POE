@@ -1,0 +1,55 @@
+﻿@page
+@model IndexModel
+@{
+    Layout = "/Pages/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="home-container">
+    <header class="home-hero">
+        <div class="hero-content">
+            <h1>Welcome to KhumaloCraft Emporium</h1>
+            <p>Your gateway to exquisite handcrafted products.</p>
+            <a asp-page="/MyWork" class="btn-primary">Explore Our Work</a>
+        </div>
+    </header>
+
+    <section class="home-intro">
+        <h2>Discover the Art of Craftsmanship</h2>
+        <p>At KhumaloCraft, we celebrate the artistry and skill of artisans from around the world. Explore our collection of unique and beautiful handcrafted items, each with its own story and cultural significance.</p>
+    </section>
+
+    <section class="home-featured">
+        <h2>Featured Products</h2>
+        <div class="featured-grid">
+            <div class="featured-item">
+                <img src="~/images/craft1.jpg" alt="Handcrafted Wooden Bowl">
+                <h3>Handcrafted Wooden Bowl</h3>
+                <p>$100</p>
+                <p>This beautiful wooden bowl is handcrafted with the finest materials, showcasing the artisan's skill and attention to detail.</p>
+            </div>
+            <div class="featured-item">
+                <img src="~/images/craft2.jpg" alt="Handwoven Basket">
+                <h3>Handwoven Basket</h3>
+                <p>$150</p>
+                <p>This exquisite handwoven basket is made using traditional techniques passed down through generations.</p>
+            </div>
+            <!-- Additional featured items -->
+        </div>
+    </section>
+
+    <section class="home-testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-item">
+                <p>"KhumoCraft's products are of exceptional quality and unique designs. I'm very satisfied with my purchase."</p>
+                <p>- Sarah J.</p>
+            </div>
+            <div class="testimonial-item">
+                <p>"The craftsmanship is superb, and the service is excellent. Highly recommend KhumoCraft."</p>
+                <p>- Michael T.</p>
+            </div>
+            <!-- Additional testimonials -->
+        </div>
+    </section>
+</div>

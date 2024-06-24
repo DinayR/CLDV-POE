@@ -1,0 +1,41 @@
+﻿@page
+@model AboutUsModel
+@{
+    Layout = "/Pages/Shared/_Layout.cshtml";
+    ViewData["Title"] = "About Us";
+}
+
+<div class="about-container">
+    <header class="about-header">
+        <h1>About KhumaloCraft Emporium</h1>
+        <p>Founded by visionary entrepreneur James Khumalo, KhumaloCraft Emporium aims to connect artisans with a global audience.</p>
+    </header>
+
+    <section class="about-mission">
+        <h2>Our Mission</h2>
+        <p>At KhumaloCraft, our mission is to celebrate the artistry and skill of artisans from around the world. We believe in the power of craftsmanship to tell stories, preserve cultures, and create beautiful, meaningful items that enrich our lives.</p>
+    </section>
+
+    <section class="about-founder">
+        <h2>Meet Our Founder</h2>
+        <img src="~/images/james-khumalo.jpg" alt="James Khumalo" class="founder-photo">
+        <p>James Khumalo, a passionate advocate for the arts and a visionary entrepreneur, founded KhumaloCraft Emporium with a dream to bring the world's finest handcrafted products to discerning customers. James believes in the transformative power of art and craftsmanship, and his vision drives the mission of KhumaloCraft Emporium.</p>
+    </section>
+
+    <section class="about-team">
+        <h2>Our Team</h2>
+        <div class="team-grid">
+            <div class="team-member">
+                <img src="~/images/team1.jpg" alt="Team Member 1">
+                <h3>Jane Doe</h3>
+                <p>Head of Marketing</p>
+            </div>
+            <div class="team-member">
+                <img src="~/images/team2.jpg" alt="Team Member 2">
+                <h3>John Smith</h3>
+                <p>Lead Designer</p>
+            </div>
+            <!-- Additional team members -->
+        </div>
+    </section>
+</div>

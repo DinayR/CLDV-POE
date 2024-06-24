@@ -1,0 +1,33 @@
+﻿@page
+@model MyWorkModel
+@{
+    Layout = "/Pages/Shared/_Layout.cshtml";
+    ViewData["Title"] = "My Work";
+}
+
+<div class="work-container">
+    <header class="work-header">
+        <h1>Our Craftwork</h1>
+        <p>Explore the exquisite handcrafted products made by our talented artisans.</p>
+    </header>
+
+    <section class="work-gallery">
+        <div class="craft-item">
+            <img src="~/images/craft1.jpg" alt="Handcrafted Wooden Bowl" class="craft-photo">
+            <div class="craft-details">
+                <h2>Handcrafted Wooden Bowl</h2>
+                <p>R100</p>
+                <p>This beautiful wooden bowl is handcrafted with the finest materials, showcasing the artisan's skill and attention to detail. Perfect for adding a touch of elegance to your home.</p>
+            </div>
+        </div>
+        <div class="craft-item">
+            <img src="~/images/craft2.jpg" alt="Handwoven Basket" class="craft-photo">
+            <div class="craft-details">
+                <h2>Handwoven Basket</h2>
+                <p>R200</p>
+                <p>This exquisite handwoven basket is made using traditional techniques passed down through generations. It's a versatile piece that can be used for storage or as a decorative item.</p>
+            </div>
+        </div>
+        <!-- Additional craft items -->
+    </section>
+</div>
